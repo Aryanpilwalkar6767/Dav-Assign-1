@@ -203,7 +203,7 @@ forecast = model_fit.forecast(steps=30)
 ## 9. Predicted Values (First 5 Days)
 Based on the trained ARIMA model, here are the projected closing prices for the start of the forecast period:
 
-| Date | Forecasted Closing Price (INR) |
+| Dates | Forecasted Closing Price (INR) |
 | :--- | :--- |
 | **2026-03-09** | 1322.40 |
 | **2026-03-10** | 1323.49 |
