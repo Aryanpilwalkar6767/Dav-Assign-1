@@ -200,10 +200,20 @@ The trained ARIMA model is used to forecast the next **30 days of closing prices
 ```python
 forecast = model_fit.forecast(steps=30)
 ```
+## 9. Predicted Values (First 5 Days)
+Based on the trained ARIMA model, here are the projected closing prices for the start of the forecast period:
+
+| Date | Forecasted Closing Price (INR) |
+| :--- | :--- |
+| **2026-03-09** | 1322.40 |
+| **2026-03-10** | 1323.49 |
+| **2026-03-11** | 1324.47 |
+| **2026-03-12** | 1325.35 |
+| **2026-03-13** | 1326.15 |
 
 ---
 
-# 9. Forecast Visualization
+# 10. Forecast Visualization
 
 The predicted values are plotted along with the historical data to visualize future trends.
 
@@ -213,7 +223,7 @@ The predicted values are plotted along with the historical data to visualize fut
 
 ---
 
-# 10. Interpretation of Results
+# 11. Interpretation of Results
 
 Based on the ARIMA model forecast:
 
@@ -225,7 +235,7 @@ However, stock prices are influenced by many external factors such as market con
 
 ---
 
-# 11. Tools and Libraries Used
+# 12. Tools and Libraries Used
 
 The following Python libraries were used:
 
@@ -236,7 +246,7 @@ The following Python libraries were used:
 
 ---
 
-# 12. Conclusion
+# 13. Conclusion
 
 This project demonstrated the application of **time series analysis using the ARIMA model** to analyze stock price data.
 
@@ -251,7 +261,7 @@ The ARIMA model provides a useful statistical approach for time series forecasti
 
 ---
 
-# 13. Repository Structure
+# 14. Repository Structure
 
 ```
 DAV-Assignment
